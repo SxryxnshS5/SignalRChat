@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat.Server", "Server\SignalRChat.Server.csproj", "{A34811C1-0369-4117-B146-D648A94902FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat.Client", "Client\SignalRChat.Client.csproj", "{01314B8F-559D-4335-A7D5-CD18D8519EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat.Shared", "Shared\SignalRChat.Shared.csproj", "{516E314D-3248-456E-86BD-1DC116E2EC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34811C1-0369-4117-B146-D648A94902FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34811C1-0369-4117-B146-D648A94902FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34811C1-0369-4117-B146-D648A94902FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34811C1-0369-4117-B146-D648A94902FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01314B8F-559D-4335-A7D5-CD18D8519EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01314B8F-559D-4335-A7D5-CD18D8519EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01314B8F-559D-4335-A7D5-CD18D8519EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01314B8F-559D-4335-A7D5-CD18D8519EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516E314D-3248-456E-86BD-1DC116E2EC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516E314D-3248-456E-86BD-1DC116E2EC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516E314D-3248-456E-86BD-1DC116E2EC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516E314D-3248-456E-86BD-1DC116E2EC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A1AE31-52EE-414E-9439-B0D485F09B2C}
+	EndGlobalSection
+EndGlobal
